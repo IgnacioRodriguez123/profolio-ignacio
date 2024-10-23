@@ -1,0 +1,399 @@
+/*----------- Estilo general -----------*/
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    margin: 0;
+    color: #333;
+    background-color: #f9f9f9; 
+    padding: 0px; 
+}
+
+/*-------------------- sección menú ----------*/
+
+header {
+    background-color: #333;
+    color: #f9f9f9;
+    padding: 10px;
+    margin: 0;
+    text-align: center;   
+}
+
+nav ul {
+    list-style: none;
+    margin: 10px;
+    font-size: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+    text-decoration: underline;
+}
+
+nav ul li a {
+    color: #f9f9f9;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 40px;
+} 
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+} 
+
+h3 {
+    text-align: center;
+
+}
+
+section {
+    padding: 10px 20px;
+    margin: 20px 0;
+}
+
+/*---------- Sección Inicio -----------*/
+
+.parrafo_grande {
+    font-size: 20px; 
+    color: black; 
+}
+
+.parrafo-inicio {
+    background-color: #fff;
+    border: 15px solid #ddd;
+    margin: 0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.recuadro_inicio {
+    background-color: #333; 
+    color: #f9f9f9; 
+    padding: 5px; 
+    margin-top: 10px;
+    border-radius: 5px; 
+    text-align: center; 
+}
+
+.inicio {
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.inicio-contenido {
+    max-width: 800px;
+    margin: auto;
+}
+
+.foto-perfil {
+    width: 300px; 
+    height: 300px; 
+    border-radius: 10%;
+    margin: 0;
+}
+
+/*------------- Sección Sobre Mí -------------*/
+
+.recuadro_sobremi {
+    background-color: #333; 
+    color: white; 
+    padding: 5px; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px; 
+    text-align: center;
+}
+
+.sobremi-recuadro {
+    background-color: #fff;
+    border: 15px solid #ddd;
+    margin: 0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.sobremi-contenido {
+    max-width: 800px;
+    margin: auto;
+}
+
+.sobre_mi {
+    font-size: 20px;
+    color: black;
+    text-align: left;
+    background-color: #f9f9f9;
+    margin: 10px;
+}
+
+
+/*----- Sección de Experiencia ------*/
+
+.recuadro_experiencia {
+    background-color: #333; 
+    color: white; 
+    padding: 5px; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px; 
+    text-align: center;
+}
+
+.experiencia {
+    background-color: #f9f9f9;
+}
+
+.experiencia-contenido {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.experiencia-item {
+    background-color: #fff;
+    border: 15px solid #ddd;
+    margin: 0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.experiencia-item h3 {
+    margin-top: 0;
+    color: black;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.experiencia-item p {
+    color: black;
+    margin: 5px 0;
+    font-size: 20px;
+    text-align: left;
+}
+
+
+/*----- Sección de Estudios ------*/
+
+.recuadro_estudios {
+    background-color: #333; 
+    color: white; 
+    padding: 5px; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px; 
+    text-align: center;
+}
+
+.estudios {
+    background-color: #f9f9f9;
+}
+
+.estudios-contenido {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.estudio-item {
+    background-color: #fff;
+    border: 15px solid #ddd;
+    margin: 0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.estudio-item h3 {
+    font-size: 25px;
+    text-decoration: underline;
+    margin-top: 0;
+    color: #000000;
+}
+
+.estudio-item p {
+    color: black;
+    margin: 5px 0;
+    font-size: 20px;
+}
+
+/*----- Sección de contacto ------*/
+
+.recuadro_contacto {
+    background-color: #333; 
+    color: white; 
+    padding: 5px; 
+    margin: 15px;
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px; 
+    text-align: center;
+}
+
+.contacto-contenido {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contacto-item {
+    background-color: #fff;
+    border: 15px solid #ddd;
+    margin: 0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.form_contacto {
+    padding: 5%;
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+.form_input-contenido :is(input, textarea) {
+    padding: 10px;
+    font-size: 20px;
+    margin: 4px;
+    text-align:left;
+}
+
+.form_input-contenido input[type="submit"] {
+    padding: 12px;
+    background-color: #48e;
+    color: #fff;
+}
+
+.form-nombre {
+    color: #333;
+    font-size: 20px;
+    text-decoration-line: underline;
+    font-weight: bold;
+}
+
+.form-apellido {
+    color: #333;
+    font-size: 20px;
+    text-decoration-line: underline;
+    font-weight: bold;
+}
+
+.form-mail {
+    color: #333;
+    font-size: 20px;
+    text-decoration-line: underline;
+    font-weight: bold;
+}
+
+.form-consulta {
+    color: #333;
+    font-size: 20px;
+    text-decoration-line: underline;
+    font-weight: bold;
+}
+
+/*----- Sección de pie de pagina ------*/
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos Responsivos para la Sección de Estudios */
+@media (max-width: 768px) {
+    .estudio-item {
+        padding: 15px;
+    }
+
+    .estudio-item h3 {
+        font-size: 1.2em;
+    }
+
+    .estudio-item p {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 480px) {
+    .estudio-item {
+        padding: 10px;
+    }
+
+    .estudio-item h3 {
+        font-size: 1em;
+    }
+
+    .estudio-item p {
+        font-size: 0.8em;
+    }
+}
+
+/* Estilos Responsivos */
+
+/* Para pantallas de hasta 768px (Tablets y dispositivos móviles) */
+@media (max-width: 768px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    /* Ajustar la sección de proyectos a una sola columna */
+    .proyectos {
+        display: block;
+        text-align: center;
+    }
+
+    .proyecto-item {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    /* Redimensionar la imagen de perfil */
+    .foto-perfil {
+        width: 200px; /* Tamaño ajustado para pantallas medianas */
+        height: 200px; /* Tamaño ajustado para pantallas medianas */
+    }
+
+    section {
+        padding: 40px 10px;
+    }
+
+    /* Alinear el formulario de contacto al centro */
+    .contacto form {
+        width: 90%;
+    }
+}
+
+/* Para pantallas de hasta 480px (móviles pequeños) */
+@media (max-width: 480px) {
+    h1, h2, h3 {
+        font-size: 1.5em;
+    }
+
+    .foto-perfil {
+        width: 150px; /* Tamaño ajustado para móviles */
+        height: 150px; /* Tamaño ajustado para móviles */
+    }
+
+    .proyecto-item {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .proyectos {
+        padding: 20px 0;
+    }
+
+    .contacto form {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    /* Ajustar el texto y espaciado en el pie de página */
+    footer {
+        font-size: 0.8em;
+        padding: 15px;
+    }
+}
